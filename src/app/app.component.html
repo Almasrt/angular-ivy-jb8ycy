@@ -1,0 +1,7 @@
+<hello name="{{  this.festival.length }}"></hello>
+<p *ngFor="let item of festival"> 
+  ({{item.name}}) ({{item.tables}})
+</p>
+
+<button (click)="addFestival()">Add Festival</button>
+<button (click)="modifyName()">Modify Name</button>
